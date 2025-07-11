@@ -1,0 +1,57 @@
+{
+  "name": "helpingai",
+  "version": "1.1.0",
+  "description": "The official JavaScript/TypeScript library for the HelpingAI API - Advanced AI with Emotional Intelligence",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "helpingai",
+    "ai",
+    "emotional-intelligence",
+    "chatbot",
+    "llm",
+    "openai-compatible",
+    "api",
+    "sdk"
+  ],
+  "author": "HelpingAI Team <varun@helpingai.co>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HelpingAI/HelpingAI-js.git"
+  },
+  "homepage": "https://helpingai.co",
+  "bugs": {
+    "url": "https://github.com/HelpingAI/HelpingAI-js/issues"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "dependencies": {
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.5",
+    "@types/node": "^20.8.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.4",
+    "@typescript-eslint/parser": "^6.7.4",
+    "eslint": "^8.50.0",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.2.2"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md",
+    "LICENSE"
+  ]
+}
