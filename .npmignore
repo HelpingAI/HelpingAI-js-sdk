@@ -1,0 +1,7 @@
+src/
+tests/
+*.log
+*.md
+.gitignore
+.vscode/
+.idea/
