@@ -1,8 +1,7 @@
 {
-  "type": "module",
   "name": "helpingai",
   "version": "1.1.0",
-  "description": "The official JavaScript/TypeScript library for the HelpingAI API",
+  "description": "The official JavaScript/TypeScript library for the HelpingAI API - Advanced AI with Emotional Intelligence",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -38,7 +37,6 @@
     "node": ">=14"
   },
   "dependencies": {
-    "helpingai": "^1.1.0",
     "node-fetch": "^3.3.2"
   },
   "devDependencies": {
